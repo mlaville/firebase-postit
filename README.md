@@ -21,7 +21,7 @@ Dans le BODY
 
 ```html
 <script>
-	appPostIt.setBase( 'https://px-flux.firebaseio.com/postit/demo' );
+	appPostIt.setBase( 'https://VOTRE-BASE-FIREBASE.firebaseio.com/postit/demo' );
 	appPostIt.setLanceur( document.getElementById('creaPostIt') );
 </script>
 ```
