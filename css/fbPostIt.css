@@ -1,0 +1,90 @@
+/************ Classes ************/
+
+
+.post-it {
+	padding: 8px 2px 2px;
+	background: #fffc7f none repeat scroll 0;
+	cursor: move;
+	height: 96px;
+	position: absolute;
+	width: 96px;
+	top: 64px;
+    box-shadow: 3px 3px 5px rgba(99, 99, 99, 0.7);
+}
+.post-it textarea {
+  background-color: transparent;
+  border: medium none;
+  font-family: Lucida Handwriting, Script MT Bold;
+  font-size: .7em;
+  height: 86px;
+  left: 2px;
+  overflow: hidden;
+  position: absolute;
+  resize: none;
+  top: 12px;
+  width: 92px;
+}
+.post-it textarea:hover {
+	background:#FFFCAF;
+}
+
+.post-it button {
+	text-align: center;
+	margin-top:-8px;
+	width:16px;
+	height:16px;
+	display: block;
+	float: right;
+	border-radius:50%;
+	border:none;
+	font-weight: bold;
+	font-size: .6em;
+	font-family: Lucida Handwriting, Script MT Bold;
+	background-color: #FFFC7F;
+	color: #FFFC7F;
+}
+.post-it:hover button {
+	background-color: #FFFCAF;
+    color: #333;
+}
+.post-it button:hover {
+    color: red;
+}
+
+.icon-postit { 
+	border-style: none;
+	background-color: #FFFC7F;
+	font-family: Lucida Handwriting, Script MT Bold;
+	font-size: .7em;
+	margin: 16px;
+	padding: 2px;
+	width: 72px;
+	height: 72px;
+	float:right;
+	box-shadow:  1px 1px rgb(195, 195, 68),
+		 2px 2px rgb(231, 231, 104),
+		 3px 3px rgb(219, 219, 92),
+		 4px 4px rgb(207, 207, 80),
+		 5px 5px rgb(195, 195, 68),
+		 6px 6px rgb(183, 183, 56),
+		 7px 7px rgb(171, 171, 44),
+		 8px 8px rgb(159, 159, 32),
+		 9px 9px rgb(147, 147, 20),
+		 10px 10px rgb(135, 135, 8);
+}
+
+button.new-postit {
+	padding: 28px 40px 27px 35px;
+	background-image: url(./img/postit.png);
+	background-position:  center center;
+	background-repeat: no-repeat;  
+	border-radius: 12px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 17px;
+	padding: 28px 40px 27px 35px;
+	text-decoration: none;
+}
+
+button:hover {
+}
